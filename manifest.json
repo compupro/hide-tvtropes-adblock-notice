@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Hide TV Tropes Adblock Notice",
+  "homepage_url": "https://github.com/compupro/hide-tvtropes-adblock-notice",
+  "author": "compupro",
+  "version": "1.0",
+
+  "description": "Removes the whitelist on adblock notice from TV Tropes",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.tvtropes.org/*"],
+      "js": ["extension.js"]
+    }
+  ]
+
+}
