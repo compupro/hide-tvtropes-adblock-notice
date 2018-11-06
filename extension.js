@@ -1,1 +1,1 @@
-window.wrappedJSObject.showAdblock = false;
+window.wrappedJSObject.adblock_check = false;
